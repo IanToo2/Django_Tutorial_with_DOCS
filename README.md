@@ -1,8 +1,8 @@
-# Django_Tutorial
+# Django 공식문서로 튜토리얼 학습하기
 
 Django 공식 문서 튜토리얼 과정을 연습해본 코드입니다.<br>
 
-# 블로그에 작성된 글에 사용된 코드와 동일합니다.<br>
+블로그에 작성된 글에 사용된 코드를 업로드 해놨습니다.<br>
 
 [블로그 링크](https://koggaeng.tistory.com/)
 
