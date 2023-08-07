@@ -1,2 +1,5 @@
+# pycache 파일 관련
 *.pyc
 __pycache__/
+# 로고 파일
+post_logo/
