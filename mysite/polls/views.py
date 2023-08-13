@@ -1,6 +1,6 @@
 from django.http import HttpResponse, Http404
 from django.template import loader
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 
 from .models import Question
 
@@ -27,12 +27,16 @@ def index(request):
 def detail(request, question_id):
     # return HttpResponse("You're looking at question %s" % question_id)
     
-    # Question의 id가 없는 경우 예외 발생
-    try:
-        question = Question.objects.get(pk=question_id)
-    except Question.DoesNotExist:
-        raise Http404("Question does not exist")
+    ### Http 404 error
+    # 1. Http404 사용
+    # try:
+    #     question = Question.objects.get(pk=question_id)
+    # except Question.DoesNotExist:
+    #     raise Http404()
     
+    # # 2. Django의 단축 기능 get_object_or_404() 사용
+    question = get_object_or_404(Question, pk=question_id)
+
     return render(request, "polls/detail.html", {"question": question})
 
 def results(request, question_id):
