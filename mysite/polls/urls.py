@@ -2,6 +2,8 @@ from django.urls import path
 
 from . import views
 
+# URLconf 이름공간 추가
+app_name = "polls"
 
 urlpatterns = [
     # /polls/
