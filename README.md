@@ -24,3 +24,5 @@ Django 공식 문서 튜토리얼 과정을 실습한 코드입니다.<br>
 - Django 튜토리얼 part 2
   - [part 2-1](https://koggaeng.tistory.com/entry/Django-%EC%B2%AB-%EB%B2%88%EC%A7%B8-%EC%9E%A5%EA%B3%A0-%EC%95%B1-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-part-2-1)
   - [part 2-2](https://koggaeng.tistory.com/entry/Django-%EC%B2%AB-%EB%B2%88%EC%A7%B8-%EC%9E%A5%EA%B3%A0-%EC%95%B1-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-part-2-2)
+- Django 튜토리얼 part 3
+  - [part 3](https://koggaeng.tistory.com/entry/Django-%EC%B2%AB-%EB%B2%88%EC%A7%B8-%EC%9E%A5%EA%B3%A0-%EC%95%B1-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-part-3)
