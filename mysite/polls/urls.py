@@ -2,10 +2,11 @@ from django.urls import path
 
 from . import views
 
+
 urlpatterns = [
     # /polls/
     path("", views.index, name= "index"),
-    # /polls/5
+    # name으로 url template태그로 연결
     path("<int:question_id>/", views.detail, name="detail"),
     # /polls/5/results
     path("<int:question_id>/results/", views.results, name="results"),
